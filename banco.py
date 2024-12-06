@@ -27,7 +27,7 @@ class ContaBancaria:
         print("{:.2f}".format(self.saldo))
 
     def exibir_info(self):
-        print(f"[{self.titular}] [{self.saldo:.2f}] [{self.limite:.2f}]")
+        print(f"{str(self.titular)} {self.saldo:.2f} {self.limite:.2f}")
 
 
 
